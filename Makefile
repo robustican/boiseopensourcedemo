@@ -32,7 +32,7 @@ clean-test:
 	rm -fr htmlcov/
 
 lint:
-	flake8 boiseopensourcedemo tests
+	flake8 --config flake8.cfg .
 
 test:
 	python setup.py test
@@ -41,10 +41,8 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source boiseopensourcedemo setup.py test
-	coverage report -m
-	coverage html
-	open htmlcov/index.html
+	coverage run setup.py test
+	coverage report
 
 docs:
 	rm -f docs/boiseopensourcedemo.rst

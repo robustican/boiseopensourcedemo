@@ -1,0 +1,6 @@
+[run]
+source=boiseopensourcedemo
+
+[report]
+omit=*__init__*
+show_missing=True

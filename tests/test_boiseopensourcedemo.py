@@ -19,7 +19,10 @@ class TestBoiseopensourcedemo(unittest.TestCase):
         pass
 
     def test_something(self):
-        pass
+        self.assertEquals(boiseopensourcedemo.a_cool_method(5), 25)
+
+    def test_something_else(self):
+        self.assertRaises(NotImplementedError, boiseopensourcedemo.a_cool_method, 1.1)
 
     def tearDown(self):
         pass
