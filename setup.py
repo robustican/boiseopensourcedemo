@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
+from boiseopensourcedemo import __version__
 try:
     from setuptools import setup
 except ImportError:
@@ -21,7 +21,7 @@ test_requirements = [
 
 setup(
     name='boiseopensourcedemo',
-    version='0.0.1',
+    version=__version__,
     description='Boise Open Source Demo',
     long_description=readme + '\n\n' + history,
     author='Jeremy Robin',
