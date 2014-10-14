@@ -8,10 +8,6 @@ boiseopensourcedemo
 .. image:: https://travis-ci.org/robustican/boiseopensourcedemo.png?branch=master
         :target: https://travis-ci.org/robustican/boiseopensourcedemo
 
-.. image:: https://pypip.in/d/boiseopensourcedemo/badge.png
-        :target: https://pypi.python.org/pypi/boiseopensourcedemo
-
-
 Boise Open Source Demo
 
 * Free software: BSD license
