@@ -13,7 +13,15 @@ Boise Open Source Demo
 * Free software: BSD license
 * Documentation: https://boiseopensourcedemo.readthedocs.org.
 
-Features
---------
-
-* TODO
+How to open source a python module
+----------------------------------
+* make lint
+* make test
+* make coverage
+* hook up travis
+* tox
+* make docs
+* hook up readthedocs
+* python setup.py register
+* make dist
+* make release
