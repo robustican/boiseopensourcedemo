@@ -12,6 +12,7 @@ Boise Open Source Demo
 
 * Free software: BSD license
 * Documentation: https://boiseopensourcedemo.readthedocs.org.
+* cookiecutter: https://github.com/audreyr/cookiecutter-pypackage.
 
 How to open source a python module
 ----------------------------------
